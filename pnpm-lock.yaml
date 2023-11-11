@@ -46,10 +46,10 @@ devDependencies:
     version: 10.3.0(vue@3.3.4)
   '@vueuse/integrations':
     specifier: ^10.3.0
-    version: 10.3.0(axios@1.4.0)(nprogress@0.2.0)(vue@3.3.4)
+    version: 10.3.0(axios@1.6.0)(nprogress@0.2.0)(vue@3.3.4)
   axios:
-    specifier: ^1.4.0
-    version: 1.4.0
+    specifier: ^1.6.0
+    version: 1.6.0
   browserslist:
     specifier: ^4.21.10
     version: 4.21.10
@@ -2971,7 +2971,7 @@ packages:
       - vue
     dev: true
 
-  /@vueuse/integrations@10.3.0(axios@1.4.0)(nprogress@0.2.0)(vue@3.3.4):
+  /@vueuse/integrations@10.3.0(axios@1.6.0)(nprogress@0.2.0)(vue@3.3.4):
     resolution: {integrity: sha512-Jgiv7oFyIgC6BxmDtiyG/fxyGysIds00YaY7sefwbhCZ2/tjEx1W/1WcsISSJPNI30in28+HC2J4uuU8184ekg==}
     peerDependencies:
       async-validator: '*'
@@ -3014,7 +3014,7 @@ packages:
     dependencies:
       '@vueuse/core': 10.3.0(vue@3.3.4)
       '@vueuse/shared': 10.3.0(vue@3.3.4)
-      axios: 1.4.0
+      axios: 1.6.0
       nprogress: 0.2.0
       vue-demi: 0.14.5(vue@3.3.4)
     transitivePeerDependencies:
@@ -3260,8 +3260,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /axios@1.4.0:
-    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
+  /axios@1.6.0:
+    resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
@@ -8401,6 +8401,21 @@ packages:
       vue: 3.3.4
     dev: true
 
+  /vue-demi@0.14.6(vue@3.3.4):
+    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.3.4
+    dev: true
+
   /vue-echarts@6.6.1(echarts@5.4.3)(vue@3.3.4):
     resolution: {integrity: sha512-EpreTzlNeJ+eaUn0AhXEmKJk98xJGecgTqAdyZovoXWnhTxnlW2HuBM0ei3y8rLw1JCUabf8/sYvxjlr8SzBKQ==}
     requiresBuild: true
@@ -8460,7 +8475,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.3.4
-      vue-demi: 0.14.5(vue@3.3.4)
+      vue-demi: 0.14.6(vue@3.3.4)
     dev: true
 
   /vue-router@4.2.4(vue@3.3.4):
